@@ -1634,6 +1634,160 @@
         .connection-demo { border-color: var(--success); }
         .connection-real { border-color: var(--accent); }
         .connection-mt5 { border-color: var(--purple); }
+        /* =========================
+   MOBILE FIX (CRITICAL)
+   ========================= */
+@media (max-width: 600px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 12px;
+    max-width: 100%;
+  }
+
+  /* HEADER FIX */
+  .dashboard-header {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .header-top {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .logo {
+    width: 44px;
+    height: 44px;
+    font-size: 20px;
+  }
+
+  .logo-title {
+    font-size: 22px;
+  }
+
+  .live-badge {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .header-actions {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .time-display {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* STATS CARDS */
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .stat-card {
+    padding: 16px;
+  }
+
+  .stat-value {
+    font-size: 22px;
+  }
+
+  /* DASHBOARD GRID */
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    min-height: auto;
+  }
+
+  /* PANELS */
+  .panel {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .panel-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  /* SIGNAL SECTION */
+  .signal-container {
+    padding: 20px 16px;
+  }
+
+  .signal-main {
+    font-size: 28px;
+  }
+
+  .signal-reason {
+    max-width: 100%;
+    font-size: 13px;
+  }
+
+  /* ACTION BUTTONS */
+  .action-buttons {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .btn {
+    padding: 16px;
+    font-size: 14px;
+  }
+
+  /* CHART */
+  .chart-section {
+    height: 380px;
+    padding: 12px;
+  }
+
+  /* INDICATORS */
+  .indicators-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .indicator-value {
+    font-size: 20px;
+  }
+
+  /* MARKET GRID */
+  .market-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  /* TRADE LOG */
+  .trade-item {
+    padding: 14px;
+  }
+
+  .trade-details {
+    grid-template-columns: 1fr;
+  }
+
+  /* MODALS */
+  .account-content {
+    padding: 24px;
+  }
+
+  /* HIDE NON-ESSENTIAL DESKTOP STUFF */
+  .hotkeys-panel {
+    display: none;
+  }
+
+}
+
     </style>
 </head>
 <body>
